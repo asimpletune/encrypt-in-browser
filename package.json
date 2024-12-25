@@ -1,0 +1,22 @@
+{
+  "name": "encrypt-message",
+  "private": true,
+  "version": "0.1.0",
+  "main": "pkg/my_encryption_app.js",
+  "files": [
+    "pkg/*.js",
+    "pkg/*.wasm",
+    "pkg/*.ts"
+  ],
+  "scripts": {
+    "clean": "git clean -X -d -i",
+    "build": "wasm-pack build --target web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/my-encryption-app.git"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT"
+}
